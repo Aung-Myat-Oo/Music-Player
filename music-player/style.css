@@ -1,0 +1,64 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  user-select: none;
+}
+body {
+  background-color: #19172e;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.pause {
+  display: none;
+}
+.music {
+  width: 300px;
+  text-align: center;
+  padding: 20px 0px;
+  color: rgb(253, 189, 70);
+  background-color: rgb(63, 63, 63);
+  margin: 5px;
+}
+.music:active {
+  scale: 0.95;
+}
+.timeText {
+  margin-top: 40px;
+  color: white;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.box {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.currentBar {
+  height: 5px;
+  width: 500px;
+  background-color: gray;
+}
+.bar {
+  height: 100%;
+  width: 0;
+  background-color: red;
+}
+.button-box {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+.button-box i {
+  font-size: 20px;
+  color: white;
+}
+.button-box i:active {
+  scale: 0.95;
+}
